@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietetyka</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-success">
+    <!-- Header -->
+    <header class="bg-success fixed-top" id="top-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+            <div class="container">
+                <!-- Logo po lewej stronie -->
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+                    Dietetyka
+                </a>
+                <!-- Przycisk do rozwijania menu na małych ekranach -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Przełącz nawigację">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu nawigacyjne -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="normal navbar-nav ml-auto col">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Strona główna</a>
+                        </li>
+                        <!-- Dropdown z listą stron -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Zagadnienia
+                            </a>
+                            
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="skladniki.html">Składniki odżywcze</a>
+                                <a class="dropdown-item" href="biologia.html">Podstawy biologii w dietetyce</a>
+                                <a class="dropdown-item" href="trawienie.html">Procesy trawienia i wchłaniania</a>
+                                <a class="dropdown-item" href="bilans.html">Zapotrzebowanie energetyczne</a>
+                                <a class="dropdown-item" href="diety.html">Diety i strategie żywieniowe</a>
+                                <a class="dropdown-item" href="zywienie.html">Żywienie w różnych grupach</a>
+                                <a class="dropdown-item" href="suple.html">Suplementacja</a>
+                                <a class="dropdown-item" href="ocena.html">Ocena jakości żywności</a>
+                                <a class="dropdown-item" href="psychologia.html">Psychologia odżywiania</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Pasek wyszukiwarki po prawej stronie -->
+                    <form class="form-inline my-2 my-lg-0 col-4 me-auto">
+                        <div class="input-group">
+                            <input class="form-control" type="search" placeholder="Szukaj..." aria-label="Szukaj" aria-describedby="button-addon1">
+                            <button class="btn btn-outline-success" type="submit" id="button-addon1">Szukaj</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style="height: 80px;"></div>
+
+    <!-- Content -->
+
+    <!-- Footer -->
+    <footer class="bg-success text-white text-center py-3 row justify-content-between px-5" style="width:100%">           
+        <p class="col-auto">&copy; 2024 Dietetyka przez Damiana Kwasigroch</p>
+        <p class="col-auto">github: <a href="https://github.com/DAMULdk" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">DAMULdk</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

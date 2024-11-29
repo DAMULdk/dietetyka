@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#top-menu {
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Toggle */
+.toggle-header > *{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.toggle-header:hover > *{
+    background-color: #007bff!important;
+    color: aliceblue;
+}
+.toggle-content {
+    display: none;
+}
