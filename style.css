@@ -4,7 +4,11 @@ html {
 
 #top-menu {
     transition: transform 0.3s ease-in-out;
+<<<<<<< HEAD
     z-index: 1000;
+=======
+    z-index: 10;
+>>>>>>> c595f512c3c3812338afabde29441c10ab2a3f69
 }
 
 /* Toggle */
@@ -19,4 +23,8 @@ html {
 }
 .toggle-content {
     display: none;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c595f512c3c3812338afabde29441c10ab2a3f69
